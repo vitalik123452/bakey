@@ -1,0 +1,16 @@
+.main-header {
+    height: 100vh; /* щоб фон займав весь екран */
+    background: url("images/header-bg.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.main-header .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* затемнення для контрасту */
+    padding: 20px;
+    border-radius: 15px;
+}
